@@ -8,17 +8,15 @@ uint8_t blink_pin = PB0;
 
 ISR(PCINT0_vect) {
     // disable interrupts
-    GIMSK &= ~(1 << PCIE);
+    PCMSK &= ~(1 << PB3);
 
     PORTB |= (1 << PB4);
     sleep(WDTO_60MS);
     PORTB &= ~(1 << PB4);
-    sleep();
-    sleep();
+    sleep(WDTO_2S);
 
     // re-enable interrupts
-    GIMSK |= (1 << PCIE);
-
+    PCMSK |= (1 << PB3);
 }
 
 void setup_interrupt() {
@@ -28,8 +26,11 @@ void setup_interrupt() {
     // The rising edge of INT0 generates an interrupt request.
     // MCUCR |= (1 << ISC01) | (1 << ISC00);
 
-    // The falling edge of INT0 generates an interrupt request.
-    MCUCR |= (0 << ISC01) | (1 << ISC00);
+    // // The falling edge of INT0 generates an interrupt request.
+    // MCUCR |= (0 << ISC01) | (1 << ISC00);
+
+    // The low level of INT0 generates an interrupt request.
+    MCUCR |= (0 << ISC01) | (0 << ISC00);
 
     // General Interrupt Mask Register
 
