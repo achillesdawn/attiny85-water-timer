@@ -2,18 +2,32 @@
 #include <Arduino.h>
 #include <avr/wdt.h>
 
+#define DAY 86400
+
 bool done = false;
-uint64_t count = 0;
-uint8_t blink_pin = PB0;
+volatile uint64_t count = 0;
+volatile uint8_t blink_pin = PB0;
 
 ISR(PCINT0_vect) {
     // disable interrupts
     PCMSK &= ~(1 << PB3);
 
-    PORTB |= (1 << PB4);
-    sleep(WDTO_60MS);
-    PORTB &= ~(1 << PB4);
-    sleep(WDTO_2S);
+    PORTB &= ~((1 << PB0) | (1 << PB4));
+
+    for (uint8_t i = 0; i < 3; i++) {
+        PORTB |= (1 << PB0);
+        sleep(WDTO_60MS);
+        PORTB &= ~(1 << PB0);
+        sleep(WDTO_60MS);
+
+        PORTB |= (1 << PB4);
+        sleep(WDTO_60MS);
+        PORTB &= ~(1 << PB4);
+        sleep(WDTO_60MS);
+    }
+
+    count = 0;
+    blink_pin = PB0;
 
     // re-enable interrupts
     PCMSK |= (1 << PB3);
@@ -68,8 +82,7 @@ void blink(uint8_t pin) {
     PORTB |= (1 << pin);
     sleep(WDTO_60MS);
     PORTB &= ~(1 << pin);
-    sleep();
-    sleep();
+    sleep(WDTO_2S);
 }
 
 void loop() {
@@ -79,5 +92,11 @@ void loop() {
         blink(blink_pin);
 
         count += 2;
+
+        if (count > DAY) {
+            blink_pin = PB4;
+        } else if (count > DAY*2){
+            blink_pin = PB1;
+        }
     }
 }
