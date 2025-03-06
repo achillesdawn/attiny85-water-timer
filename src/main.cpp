@@ -24,6 +24,11 @@ ISR(PCINT0_vect) {
         sleep(WDTO_60MS);
         PORTB &= ~(1 << PB4);
         sleep(WDTO_60MS);
+
+        PORTB |= (1 << PB1);
+        sleep(WDTO_60MS);
+        PORTB &= ~(1 << PB1);
+        sleep(WDTO_60MS);
     }
 
     count = 0;
@@ -65,7 +70,7 @@ void setup() {
     // set pins
     // 0 = input
     // 1 = output
-    DDRB |= (1 << DDB0) | (1 << DDB4);
+    DDRB |= (1 << DDB0) | (1 << DDB4) | (1 << DDB1);
     DDRB &= ~(1 << DDB3);
 
     PORTB = 0;
