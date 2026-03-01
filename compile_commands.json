@@ -1,0 +1,128 @@
+[
+    {
+        "command": "/home/miguel/.platformio/packages/toolchain-atmelavr/bin/avr-gcc -o .pio/build/digispark/FrameworkArduinoVariant/pins_arduino.c.o -c -std=gnu11 -fno-fat-lto-objects -mmcu=attiny85 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_DIGISPARK -DF_CPU=16500000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/miguel/.platformio/packages/framework-arduino-avr-digistump/cores/dtiny -I/home/miguel/.platformio/packages/framework-arduino-avr-digistump/variants/digispark /home/miguel/.platformio/packages/framework-arduino-avr-digistump/variants/digispark/pins_arduino.c",
+        "directory": "/mnt/aurora/home/Documents/PlatformIO/Projects/attiny85-water-timer",
+        "file": "/home/miguel/.platformio/packages/framework-arduino-avr-digistump/variants/digispark/pins_arduino.c",
+        "output": ".pio/build/digispark/FrameworkArduinoVariant/pins_arduino.c.o"
+    },
+    {
+        "command": "/home/miguel/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/digispark/FrameworkArduino/HardwareSerial.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=attiny85 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_DIGISPARK -DF_CPU=16500000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/miguel/.platformio/packages/framework-arduino-avr-digistump/cores/dtiny -I/home/miguel/.platformio/packages/framework-arduino-avr-digistump/variants/digispark /home/miguel/.platformio/packages/framework-arduino-avr-digistump/cores/dtiny/HardwareSerial.cpp",
+        "directory": "/mnt/aurora/home/Documents/PlatformIO/Projects/attiny85-water-timer",
+        "file": "/home/miguel/.platformio/packages/framework-arduino-avr-digistump/cores/dtiny/HardwareSerial.cpp",
+        "output": ".pio/build/digispark/FrameworkArduino/HardwareSerial.cpp.o"
+    },
+    {
+        "command": "/home/miguel/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/digispark/FrameworkArduino/Print.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=attiny85 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_DIGISPARK -DF_CPU=16500000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/miguel/.platformio/packages/framework-arduino-avr-digistump/cores/dtiny -I/home/miguel/.platformio/packages/framework-arduino-avr-digistump/variants/digispark /home/miguel/.platformio/packages/framework-arduino-avr-digistump/cores/dtiny/Print.cpp",
+        "directory": "/mnt/aurora/home/Documents/PlatformIO/Projects/attiny85-water-timer",
+        "file": "/home/miguel/.platformio/packages/framework-arduino-avr-digistump/cores/dtiny/Print.cpp",
+        "output": ".pio/build/digispark/FrameworkArduino/Print.cpp.o"
+    },
+    {
+        "command": "/home/miguel/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/digispark/FrameworkArduino/TinyDebugSerial.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=attiny85 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_DIGISPARK -DF_CPU=16500000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/miguel/.platformio/packages/framework-arduino-avr-digistump/cores/dtiny -I/home/miguel/.platformio/packages/framework-arduino-avr-digistump/variants/digispark /home/miguel/.platformio/packages/framework-arduino-avr-digistump/cores/dtiny/TinyDebugSerial.cpp",
+        "directory": "/mnt/aurora/home/Documents/PlatformIO/Projects/attiny85-water-timer",
+        "file": "/home/miguel/.platformio/packages/framework-arduino-avr-digistump/cores/dtiny/TinyDebugSerial.cpp",
+        "output": ".pio/build/digispark/FrameworkArduino/TinyDebugSerial.cpp.o"
+    },
+    {
+        "command": "/home/miguel/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/digispark/FrameworkArduino/TinyDebugSerial115200.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=attiny85 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_DIGISPARK -DF_CPU=16500000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/miguel/.platformio/packages/framework-arduino-avr-digistump/cores/dtiny -I/home/miguel/.platformio/packages/framework-arduino-avr-digistump/variants/digispark /home/miguel/.platformio/packages/framework-arduino-avr-digistump/cores/dtiny/TinyDebugSerial115200.cpp",
+        "directory": "/mnt/aurora/home/Documents/PlatformIO/Projects/attiny85-water-timer",
+        "file": "/home/miguel/.platformio/packages/framework-arduino-avr-digistump/cores/dtiny/TinyDebugSerial115200.cpp",
+        "output": ".pio/build/digispark/FrameworkArduino/TinyDebugSerial115200.cpp.o"
+    },
+    {
+        "command": "/home/miguel/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/digispark/FrameworkArduino/TinyDebugSerial38400.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=attiny85 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_DIGISPARK -DF_CPU=16500000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/miguel/.platformio/packages/framework-arduino-avr-digistump/cores/dtiny -I/home/miguel/.platformio/packages/framework-arduino-avr-digistump/variants/digispark /home/miguel/.platformio/packages/framework-arduino-avr-digistump/cores/dtiny/TinyDebugSerial38400.cpp",
+        "directory": "/mnt/aurora/home/Documents/PlatformIO/Projects/attiny85-water-timer",
+        "file": "/home/miguel/.platformio/packages/framework-arduino-avr-digistump/cores/dtiny/TinyDebugSerial38400.cpp",
+        "output": ".pio/build/digispark/FrameworkArduino/TinyDebugSerial38400.cpp.o"
+    },
+    {
+        "command": "/home/miguel/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/digispark/FrameworkArduino/TinyDebugSerial9600.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=attiny85 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_DIGISPARK -DF_CPU=16500000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/miguel/.platformio/packages/framework-arduino-avr-digistump/cores/dtiny -I/home/miguel/.platformio/packages/framework-arduino-avr-digistump/variants/digispark /home/miguel/.platformio/packages/framework-arduino-avr-digistump/cores/dtiny/TinyDebugSerial9600.cpp",
+        "directory": "/mnt/aurora/home/Documents/PlatformIO/Projects/attiny85-water-timer",
+        "file": "/home/miguel/.platformio/packages/framework-arduino-avr-digistump/cores/dtiny/TinyDebugSerial9600.cpp",
+        "output": ".pio/build/digispark/FrameworkArduino/TinyDebugSerial9600.cpp.o"
+    },
+    {
+        "command": "/home/miguel/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/digispark/FrameworkArduino/TinyDebugSerialErrors.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=attiny85 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_DIGISPARK -DF_CPU=16500000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/miguel/.platformio/packages/framework-arduino-avr-digistump/cores/dtiny -I/home/miguel/.platformio/packages/framework-arduino-avr-digistump/variants/digispark /home/miguel/.platformio/packages/framework-arduino-avr-digistump/cores/dtiny/TinyDebugSerialErrors.cpp",
+        "directory": "/mnt/aurora/home/Documents/PlatformIO/Projects/attiny85-water-timer",
+        "file": "/home/miguel/.platformio/packages/framework-arduino-avr-digistump/cores/dtiny/TinyDebugSerialErrors.cpp",
+        "output": ".pio/build/digispark/FrameworkArduino/TinyDebugSerialErrors.cpp.o"
+    },
+    {
+        "command": "/home/miguel/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/digispark/FrameworkArduino/Tone.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=attiny85 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_DIGISPARK -DF_CPU=16500000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/miguel/.platformio/packages/framework-arduino-avr-digistump/cores/dtiny -I/home/miguel/.platformio/packages/framework-arduino-avr-digistump/variants/digispark /home/miguel/.platformio/packages/framework-arduino-avr-digistump/cores/dtiny/Tone.cpp",
+        "directory": "/mnt/aurora/home/Documents/PlatformIO/Projects/attiny85-water-timer",
+        "file": "/home/miguel/.platformio/packages/framework-arduino-avr-digistump/cores/dtiny/Tone.cpp",
+        "output": ".pio/build/digispark/FrameworkArduino/Tone.cpp.o"
+    },
+    {
+        "command": "/home/miguel/.platformio/packages/toolchain-atmelavr/bin/avr-gcc -o .pio/build/digispark/FrameworkArduino/WInterrupts.c.o -c -std=gnu11 -fno-fat-lto-objects -mmcu=attiny85 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_DIGISPARK -DF_CPU=16500000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/miguel/.platformio/packages/framework-arduino-avr-digistump/cores/dtiny -I/home/miguel/.platformio/packages/framework-arduino-avr-digistump/variants/digispark /home/miguel/.platformio/packages/framework-arduino-avr-digistump/cores/dtiny/WInterrupts.c",
+        "directory": "/mnt/aurora/home/Documents/PlatformIO/Projects/attiny85-water-timer",
+        "file": "/home/miguel/.platformio/packages/framework-arduino-avr-digistump/cores/dtiny/WInterrupts.c",
+        "output": ".pio/build/digispark/FrameworkArduino/WInterrupts.c.o"
+    },
+    {
+        "command": "/home/miguel/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/digispark/FrameworkArduino/WMath.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=attiny85 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_DIGISPARK -DF_CPU=16500000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/miguel/.platformio/packages/framework-arduino-avr-digistump/cores/dtiny -I/home/miguel/.platformio/packages/framework-arduino-avr-digistump/variants/digispark /home/miguel/.platformio/packages/framework-arduino-avr-digistump/cores/dtiny/WMath.cpp",
+        "directory": "/mnt/aurora/home/Documents/PlatformIO/Projects/attiny85-water-timer",
+        "file": "/home/miguel/.platformio/packages/framework-arduino-avr-digistump/cores/dtiny/WMath.cpp",
+        "output": ".pio/build/digispark/FrameworkArduino/WMath.cpp.o"
+    },
+    {
+        "command": "/home/miguel/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/digispark/FrameworkArduino/WString.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=attiny85 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_DIGISPARK -DF_CPU=16500000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/miguel/.platformio/packages/framework-arduino-avr-digistump/cores/dtiny -I/home/miguel/.platformio/packages/framework-arduino-avr-digistump/variants/digispark /home/miguel/.platformio/packages/framework-arduino-avr-digistump/cores/dtiny/WString.cpp",
+        "directory": "/mnt/aurora/home/Documents/PlatformIO/Projects/attiny85-water-timer",
+        "file": "/home/miguel/.platformio/packages/framework-arduino-avr-digistump/cores/dtiny/WString.cpp",
+        "output": ".pio/build/digispark/FrameworkArduino/WString.cpp.o"
+    },
+    {
+        "command": "/home/miguel/.platformio/packages/toolchain-atmelavr/bin/avr-gcc -o .pio/build/digispark/FrameworkArduino/hooks.c.o -c -std=gnu11 -fno-fat-lto-objects -mmcu=attiny85 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_DIGISPARK -DF_CPU=16500000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/miguel/.platformio/packages/framework-arduino-avr-digistump/cores/dtiny -I/home/miguel/.platformio/packages/framework-arduino-avr-digistump/variants/digispark /home/miguel/.platformio/packages/framework-arduino-avr-digistump/cores/dtiny/hooks.c",
+        "directory": "/mnt/aurora/home/Documents/PlatformIO/Projects/attiny85-water-timer",
+        "file": "/home/miguel/.platformio/packages/framework-arduino-avr-digistump/cores/dtiny/hooks.c",
+        "output": ".pio/build/digispark/FrameworkArduino/hooks.c.o"
+    },
+    {
+        "command": "/home/miguel/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/digispark/FrameworkArduino/main.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=attiny85 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_DIGISPARK -DF_CPU=16500000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/miguel/.platformio/packages/framework-arduino-avr-digistump/cores/dtiny -I/home/miguel/.platformio/packages/framework-arduino-avr-digistump/variants/digispark /home/miguel/.platformio/packages/framework-arduino-avr-digistump/cores/dtiny/main.cpp",
+        "directory": "/mnt/aurora/home/Documents/PlatformIO/Projects/attiny85-water-timer",
+        "file": "/home/miguel/.platformio/packages/framework-arduino-avr-digistump/cores/dtiny/main.cpp",
+        "output": ".pio/build/digispark/FrameworkArduino/main.cpp.o"
+    },
+    {
+        "command": "/home/miguel/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/digispark/FrameworkArduino/new.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=attiny85 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_DIGISPARK -DF_CPU=16500000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/miguel/.platformio/packages/framework-arduino-avr-digistump/cores/dtiny -I/home/miguel/.platformio/packages/framework-arduino-avr-digistump/variants/digispark /home/miguel/.platformio/packages/framework-arduino-avr-digistump/cores/dtiny/new.cpp",
+        "directory": "/mnt/aurora/home/Documents/PlatformIO/Projects/attiny85-water-timer",
+        "file": "/home/miguel/.platformio/packages/framework-arduino-avr-digistump/cores/dtiny/new.cpp",
+        "output": ".pio/build/digispark/FrameworkArduino/new.cpp.o"
+    },
+    {
+        "command": "/home/miguel/.platformio/packages/toolchain-atmelavr/bin/avr-gcc -o .pio/build/digispark/FrameworkArduino/wiring.c.o -c -std=gnu11 -fno-fat-lto-objects -mmcu=attiny85 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_DIGISPARK -DF_CPU=16500000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/miguel/.platformio/packages/framework-arduino-avr-digistump/cores/dtiny -I/home/miguel/.platformio/packages/framework-arduino-avr-digistump/variants/digispark /home/miguel/.platformio/packages/framework-arduino-avr-digistump/cores/dtiny/wiring.c",
+        "directory": "/mnt/aurora/home/Documents/PlatformIO/Projects/attiny85-water-timer",
+        "file": "/home/miguel/.platformio/packages/framework-arduino-avr-digistump/cores/dtiny/wiring.c",
+        "output": ".pio/build/digispark/FrameworkArduino/wiring.c.o"
+    },
+    {
+        "command": "/home/miguel/.platformio/packages/toolchain-atmelavr/bin/avr-gcc -o .pio/build/digispark/FrameworkArduino/wiring_analog.c.o -c -std=gnu11 -fno-fat-lto-objects -mmcu=attiny85 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_DIGISPARK -DF_CPU=16500000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/miguel/.platformio/packages/framework-arduino-avr-digistump/cores/dtiny -I/home/miguel/.platformio/packages/framework-arduino-avr-digistump/variants/digispark /home/miguel/.platformio/packages/framework-arduino-avr-digistump/cores/dtiny/wiring_analog.c",
+        "directory": "/mnt/aurora/home/Documents/PlatformIO/Projects/attiny85-water-timer",
+        "file": "/home/miguel/.platformio/packages/framework-arduino-avr-digistump/cores/dtiny/wiring_analog.c",
+        "output": ".pio/build/digispark/FrameworkArduino/wiring_analog.c.o"
+    },
+    {
+        "command": "/home/miguel/.platformio/packages/toolchain-atmelavr/bin/avr-gcc -o .pio/build/digispark/FrameworkArduino/wiring_digital.c.o -c -std=gnu11 -fno-fat-lto-objects -mmcu=attiny85 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_DIGISPARK -DF_CPU=16500000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/miguel/.platformio/packages/framework-arduino-avr-digistump/cores/dtiny -I/home/miguel/.platformio/packages/framework-arduino-avr-digistump/variants/digispark /home/miguel/.platformio/packages/framework-arduino-avr-digistump/cores/dtiny/wiring_digital.c",
+        "directory": "/mnt/aurora/home/Documents/PlatformIO/Projects/attiny85-water-timer",
+        "file": "/home/miguel/.platformio/packages/framework-arduino-avr-digistump/cores/dtiny/wiring_digital.c",
+        "output": ".pio/build/digispark/FrameworkArduino/wiring_digital.c.o"
+    },
+    {
+        "command": "/home/miguel/.platformio/packages/toolchain-atmelavr/bin/avr-gcc -o .pio/build/digispark/FrameworkArduino/wiring_pulse.c.o -c -std=gnu11 -fno-fat-lto-objects -mmcu=attiny85 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_DIGISPARK -DF_CPU=16500000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/miguel/.platformio/packages/framework-arduino-avr-digistump/cores/dtiny -I/home/miguel/.platformio/packages/framework-arduino-avr-digistump/variants/digispark /home/miguel/.platformio/packages/framework-arduino-avr-digistump/cores/dtiny/wiring_pulse.c",
+        "directory": "/mnt/aurora/home/Documents/PlatformIO/Projects/attiny85-water-timer",
+        "file": "/home/miguel/.platformio/packages/framework-arduino-avr-digistump/cores/dtiny/wiring_pulse.c",
+        "output": ".pio/build/digispark/FrameworkArduino/wiring_pulse.c.o"
+    },
+    {
+        "command": "/home/miguel/.platformio/packages/toolchain-atmelavr/bin/avr-gcc -o .pio/build/digispark/FrameworkArduino/wiring_shift.c.o -c -std=gnu11 -fno-fat-lto-objects -mmcu=attiny85 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_DIGISPARK -DF_CPU=16500000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/miguel/.platformio/packages/framework-arduino-avr-digistump/cores/dtiny -I/home/miguel/.platformio/packages/framework-arduino-avr-digistump/variants/digispark /home/miguel/.platformio/packages/framework-arduino-avr-digistump/cores/dtiny/wiring_shift.c",
+        "directory": "/mnt/aurora/home/Documents/PlatformIO/Projects/attiny85-water-timer",
+        "file": "/home/miguel/.platformio/packages/framework-arduino-avr-digistump/cores/dtiny/wiring_shift.c",
+        "output": ".pio/build/digispark/FrameworkArduino/wiring_shift.c.o"
+    },
+    {
+        "command": "/home/miguel/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/digispark/src/main.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=attiny85 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_DIGISPARK -DF_CPU=16500000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -Iinclude -Isrc -I/home/miguel/.platformio/packages/framework-arduino-avr-digistump/cores/dtiny -I/home/miguel/.platformio/packages/framework-arduino-avr-digistump/variants/digispark src/main.cpp",
+        "directory": "/mnt/aurora/home/Documents/PlatformIO/Projects/attiny85-water-timer",
+        "file": "src/main.cpp",
+        "output": ".pio/build/digispark/src/main.cpp.o"
+    }
+]
