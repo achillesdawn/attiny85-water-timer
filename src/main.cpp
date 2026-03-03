@@ -2,28 +2,34 @@
 #include <avr/iotn85.h>
 #include <stdint.h>
 
-uint32_t elapsed_seconds = 0;
+constexpr uint32_t DELAY_MS = 500;
 
 void setup() {
-  DDRB |= (1 << DDB0) | (1 << DDB4);
+  DDRB |= (1 << DDB1) | (1 << DDB4);
   PORTB = 0;
+}
+
+inline void activate_pin(int pin, uint32_t time, bool active) {
+  if (active) {
+    PORTB |= (1 << pin);
+  } else {
+    PORTB &= ~(1 << pin);
+  }
+
+  delay(time);
 }
 
 void loop() {
 
-  PORTB |= (1 << PB0);
-  delay(250);
-  PORTB &= ~(1 << PB0);
-  delay(250);
-  PORTB |= (1 << PB0);
-  delay(250);
-  PORTB &= ~(1 << PB0);
-  delay(250);
-
-  elapsed_seconds += 1;
-
-  if (elapsed_seconds > 5) {
-    PORTB ^= (1 << PB4);
-    elapsed_seconds = 0;
+  for (uint8_t i = 0; i < 2; i++) {
+    activate_pin(PB1, DELAY_MS, true);
+    activate_pin(PB1, DELAY_MS, false);
   }
+
+  activate_pin(PB1, DELAY_MS, true);
+
+  activate_pin(PB4, 2000, true);
+  activate_pin(PB4, 0, false);
+
+  activate_pin(PB1, DELAY_MS, false);
 }

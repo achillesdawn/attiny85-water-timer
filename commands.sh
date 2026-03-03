@@ -8,3 +8,9 @@ platformio run --environment attiny85
 
 platformio run --target upload --environment attiny85
 
+# update platformio
+platformio upgrade
+
+# update dependencies
+
+platformio pkg update
