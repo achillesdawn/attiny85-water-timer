@@ -3,6 +3,10 @@
 #include <stdint.h>
 
 constexpr uint32_t DELAY_MS = 500;
+constexpr uint16_t SECONDS_PER_ACTIVATION = 60 * 60 * 8;
+constexpr uint32_t ACTIVATION_TIME = 5000;
+
+uint16_t seconds = 0;
 
 void setup() {
   DDRB |= (1 << DDB1) | (1 << DDB4);
@@ -19,17 +23,30 @@ inline void activate_pin(int pin, uint32_t time, bool active) {
   delay(time);
 }
 
-void loop() {
+inline void activate_sequence() {
 
-  for (uint8_t i = 0; i < 2; i++) {
-    activate_pin(PB1, DELAY_MS, true);
-    activate_pin(PB1, DELAY_MS, false);
-  }
+  activate_pin(PB1, 0, true);
 
-  activate_pin(PB1, DELAY_MS, true);
+  activate_pin(PB4, ACTIVATION_TIME, true);
 
-  activate_pin(PB4, 2000, true);
   activate_pin(PB4, 0, false);
 
-  activate_pin(PB1, DELAY_MS, false);
+  activate_pin(PB1, 0, false);
+}
+
+void loop() {
+
+  while (true) {
+
+    activate_pin(PB1, DELAY_MS, true);
+    activate_pin(PB1, DELAY_MS, false);
+
+    seconds += 1;
+
+    if (seconds > SECONDS_PER_ACTIVATION) {
+      seconds = 0;
+
+      activate_sequence();
+    }
+  }
 }
