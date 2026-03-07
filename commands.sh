@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# generate clang config
+platformio run -t compiledb
+
 # compile
 platformio run --environment attiny85
 
@@ -14,3 +17,4 @@ platformio upgrade
 # update dependencies
 
 platformio pkg update
+
