@@ -4,7 +4,7 @@
 
 constexpr uint32_t DELAY_MS = 500;
 constexpr uint16_t SECONDS_PER_ACTIVATION = 60 * 60 * 8;
-constexpr uint32_t ACTIVATION_TIME = 5000;
+constexpr uint32_t ACTIVATION_TIME = 8000;
 
 uint16_t seconds = 0;
 
@@ -35,6 +35,8 @@ inline void activate_sequence() {
 }
 
 void loop() {
+
+  activate_sequence();
 
   while (true) {
 
